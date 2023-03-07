@@ -15,17 +15,18 @@
 <header class="header">
   <h1>Keorapetse Magano</h1>  
      <p>An introductory personal statement.</p> 
-
+     
      <!-- Added picture elements for my profile picture to adjust to different screens-->
        <picture>
-        <source srcset=".SRC/images/Headshot.jpg" media="(max-width: 425px)">
-         <source srcset=".SRC/images/Head_and_Shoulder.jpg" media="(max-width: 900px)">
+         <source srcset=".\SRC\images\headshot.jpg" media="(max-width: 400px)">
+         <source srcset=".\SRC\images\head_and_shoulder.jpg" media="(max-width: 900px)">
           <img src="./SRC/images/Atlanta.jpg" alt="Profile picture of K.Magano"  width="250" height="250" class="pp" >
         </picture>
 
            <li><a href="#Education">Education</a></li>
            <li><a href="#Experience">Experience</a></li>
            <li><a href="#Skills">Skills</a></li>
+           
          
 </header>  
 
@@ -104,7 +105,7 @@
       <textarea id="text" name="message" rows="3" cols="30" placeholder="Your message."></textarea>
              
         <button type="submit" class="submit">SEND</button>
-    
+        <input type="hidden" name="_next" value="http://127.0.0.1:5500/thank_you_page.html">
       </fieldset>         
 </form>
 

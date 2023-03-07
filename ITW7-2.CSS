@@ -2,24 +2,24 @@
 
 {
   background: darkcyan;
-  padding: 15px; 
-  width: 100%;
+  padding: 1px; 
+  width: 95%;
 }
-  
+
   .header, .footer
   {   
-   
     width: 95%;
     padding: 5px 20px 10px 20px;
   }
 
   header, footer
   {
-    background: cyan;
+    background: url("");
     text-align: center ;
     color: #051937;
     font-size: 20px;
     padding: 10px 20px 10px 20px;
+    
   }
  
   .main
@@ -89,19 +89,19 @@ form input, form textarea, form select
   border: 0;
   margin: 5px 0;
   padding: 10px;
-  outline: none;
-  border-radius: 40px;
+  
+  
 }
 
 form button
 {  
     padding: 10px 20px;
     margin: 10px;
-    border-radius: 20px;
+    
     border: 0;
-    outline: none;
+    
     width: 100px;
-    border-radius: 20px;
+    
     font-size: 15px;
     color: #ffff;
     background-color: #051937;
