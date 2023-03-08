@@ -7,15 +7,30 @@
 header {
     background: white url(https://codespace.ams3.digitaloceanspaces.com/wp/2017/06/couch-people-1080x675.jpg);
     text-align: center;
-    color: #051937;
+    color: #ffff;
     font-size: 20px;
     padding: 10px 20px 10px 20px;
+    
 }
 
+header::after /*creating an overlay for the hero image*/
+{
+  content: " ";
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: block;
+  width: 95%;
+  height: 73%;
+  background: darkcyan;
+  opacity: .5;
+  z-index: 4;
+}
 .header,
 .footer {
   width: 95%;
   padding: 5px 20px 10px 20px;
+   
 }
 
 footer {
@@ -44,11 +59,12 @@ footer {
 }
 
 h1 {
-  color: black;
+  color: orange;
   font-size: 50px;
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
     "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
   text-decoration: underline;
+  
 }
 
 .main > section {
@@ -56,7 +72,7 @@ h1 {
 }
 
 a {
-  color: #051937;
+  color: orange;
   font-style: italic;
 }
 
