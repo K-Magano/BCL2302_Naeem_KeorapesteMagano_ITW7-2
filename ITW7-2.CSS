@@ -1,120 +1,99 @@
-.container
-
-{
+.container {
   background: darkcyan;
-  padding: 1px; 
+  padding: 1px;
   width: 95%;
 }
-  
-header 
-{
 
-    background: url("SRC\images\rm422-047.jpg");
+header {
+    background: white url(https://codespace.ams3.digitaloceanspaces.com/wp/2017/06/couch-people-1080x675.jpg);
     text-align: center;
     color: #051937;
     font-size: 20px;
     padding: 10px 20px 10px 20px;
 }
 
+.header,
+.footer {
+  width: 95%;
+  padding: 5px 20px 10px 20px;
+}
 
-.header, .footer
-  {   
-    width: 95%;
-    padding: 5px 20px 10px 20px;
-  }
+footer {
+  background: aqua;
+  text-align: center;
+  color: #051937;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+}
 
-  
-  footer
-  {
-    background: aqua;
-    text-align: center ;
-    color: #051937;
-    font-size: 20px;
-    padding: 10px 20px 10px 20px;
-    
-  }
- 
-  .main
-  {
-    font-size: 20px ;
-    margin: 50px;
-  }
-   
-  .main h2 
-  {
-    background-color: aquamarine;
-    padding: 10px 20px 10px 20px;
-    margin: 0px 450px 10px 450px;
-  }
+.main {
+  font-size: 20px;
+  margin: 50px;
+}
 
-  .main h3
-  {
-    background-color: beige;
-    padding: 5px 10px 5px 10px;
-    margin: 0px 500px 0 550px;
-  }
-  
-  h1{
-    color: black;
-    font-size: 50px;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 
-                  'Lucida Grande', 'Lucida Sans Unicode',
-                   Geneva, Verdana, sans-serif;
-    text-decoration: underline;
-      
-    }
+.main h2 {
+  background-color: aquamarine;
+  padding: 10px 20px 10px 20px;
+  margin: 0px 450px 10px 450px;
+}
 
-    .main>section
-   {
-    text-align:  center;
-        
-   }
+.main h3 {
+  background-color: beige;
+  padding: 5px 10px 5px 10px;
+  margin: 0px 500px 0 550px;
+}
 
-    a { 
-        color: #051937;
-        font-style: italic;
-      }
-          
-fieldset
-{ 
+h1 {
+  color: black;
+  font-size: 50px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  text-decoration: underline;
+}
+
+.main > section {
+  text-align: center;
+}
+
+a {
+  color: #051937;
+  font-style: italic;
+}
+
+fieldset {
   display: flexbox;
   padding: 1px 4px;
   margin: 50px 20px;
   background-color: gray;
   font-size: 10px;
   color: #051937;
-
 }
 
-form h1
-{
+form h1 {
   color: #051937;
   text-shadow: none;
   font-size: 25px;
   margin-bottom: 1px;
   text-decoration: underline;
-
 }
 
-form input, form textarea, form select
-{
+form input,
+form textarea,
+form select {
   border: 0;
   margin: 5px 0;
   padding: 10px;
-  
-  
 }
 
-form button
-{  
-    padding: 10px 20px;
-    margin: 10px;
-    
-    border: 0;
-    
-    width: 100px;
-    
-    font-size: 15px;
-    color: #ffff;
-    background-color: #051937;
-  }
+form button {
+  padding: 10px 20px;
+  margin: 10px;
+
+  border: 0;
+
+  width: 100px;
+
+  font-size: 15px;
+  color: #ffff;
+  background-color: #051937;
+}
